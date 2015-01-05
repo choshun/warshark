@@ -7,3 +7,5 @@
 3. $ npm install
 4. $ npm install -g bower
 5. bower install
+6. npm start
+7. Go to  http://localhost:3000 in your browser
