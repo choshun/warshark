@@ -1,5 +1,5 @@
-'use strict';
+/**
+ * @fileOverview - bootstrapping of the best risk game ever!
+ */
 
-angular.module('warshark');
-
-//angular.module('warshark', ['util', 'article', 'globalNav', 'search', 'tabNav']);
+angular.module('warshark', ['mapmaker']);

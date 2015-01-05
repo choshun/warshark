@@ -44,10 +44,12 @@ module.exports = function(grunt){
 						// Vendor
 						'public/js/vendor/angular/angular.js',
 						'public/js/vendor/angular-route/angular-route.js',
-						'public/js/vendor/jquery/dist/jquery.js'
+						'public/js/vendor/jquery/dist/jquery.js',
 
 						// Application
-						//'public/js/application/warshark.js'
+						'public/js/application/mapmaker/mapmaker.js',
+						'public/js/application/mapmaker/ctrl.mapmaker.js',
+						'public/js/application/warshark.js'
 					]
 				}
 			}

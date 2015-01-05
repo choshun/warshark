@@ -4,9 +4,15 @@
 		<title><%= title %></title>
 		<link rel='stylesheet' href='/stylesheets/style.css' />
 	</head>
-	<body>
+	<body ng-app="warshark">
 		Sup
 		<h1><%= title %></h1>
 		<p>Welcome to <%= title %></p>
+
+		<map ng-controller="MapmakerCtrl as map">
+			{{map.model.Rob}}
+		</map>
+
+		<script src="/js/dist/warshark.js"></script>
 	</body>
 </html>
