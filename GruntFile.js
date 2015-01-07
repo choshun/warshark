@@ -49,15 +49,20 @@ module.exports = function(grunt){
 						// Application
 						'public/js/application/mapmaker/mapmaker.js',
 						'public/js/application/mapmaker/ctrl.mapmaker.js',
+						'public/js/application/mapmaker/directive.position.js',
 						'public/js/application/warshark.js'
 					]
 				}
 			}
+		},
+
+		watch: {
+			files: ['public/js/application/**/*.js'],
+			tasks: ['uglify']
 		}
+
 	});
 
-	// TODO: I guess use shell to do clean, then karma start test/karma.config etc, then connect:server
-
 	// grunt.registerTask('compile', ['npm-install', 'clean:vendor', 'bower:install', 'copy:fonts', 'compass', 'copy:images', 'copy:css', 'concat', 'copy:js', 'copy:fileUploadMap', 'karma:unit']);
-	// grunt.registerTask('default', ['watch']);
+	grunt.registerTask('default', ['watch']);
 };
