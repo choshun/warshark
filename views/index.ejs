@@ -11,6 +11,15 @@
 
 		<map ng-controller="MapmakerCtrl as map">
 			{{map.model.Rob}}
+
+			<node 
+				ng-repeat="node in map.model.nodes" 
+				node-name="{{node.name}}" 
+				update="map.updateNodeName(nodeName, nodePosition)" 
+				node-index="{{$index}}"
+			>
+				{{node.name}}
+			</node>
 		</map>
 
 		<script src="/js/dist/warshark.js"></script>
