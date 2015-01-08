@@ -16,7 +16,7 @@ angular
 					// the update attribute is set to &, which allows us to inject local stuff into the parent controller
 					// http://stackoverflow.com/questions/24177470/call-method-on-directive-to-pass-data-to-controller
 					scope.update({
-						nodeName: 'test',
+						nodeName: element.html() + ' clicked',
 						nodePosition: attrs.nodeIndex
 					});
 				});
