@@ -43,7 +43,7 @@ module.exports = function(grunt){
 					'public/js/dist/warshark.js': [
 						// Vendor
 						'public/js/vendor/angular/angular.js',
-						'public/js/vendor/angular-route/angular-route.js',
+						'public/js/vendor/angular-ui-router/release/angular-ui-router.js',
 						'public/js/vendor/jquery/dist/jquery.js',
 
 						// Application
