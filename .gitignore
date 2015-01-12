@@ -1,4 +1,4 @@
-/node_modules
-/*.map
-/public/js/dist
-/public/js/vendor
+node_modules
+*.map
+public/js/dist
+public/js/vendor
