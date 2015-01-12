@@ -48,6 +48,7 @@ module.exports = function(grunt){
 
 						// Application
 						'public/js/application/mapmaker/mapmaker.js',
+						'public/js/application/mapmaker/service.mapmaker.js',
 						'public/js/application/mapmaker/ctrl.mapmaker.js',
 						'public/js/application/mapmaker/directive.position.js',
 						'public/js/application/warshark.js'
